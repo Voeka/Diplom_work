@@ -1,0 +1,270 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #CCF0FE;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header .dropdown{
+    margin: 1rem;
+}
+
+header .dropdown img{
+    background-color: white;
+    width: 2.5rem;
+    height: 2.5rem;
+
+    border-radius: 100%;
+}
+
+.headlink{
+    margin: auto 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    font-size: 2rem;
+    
+}
+
+.hr{
+    border: 1px solid black;
+    margin: 0;
+}
+
+main{
+    text-align: center;
+}
+
+main h1{
+    margin: 3rem 0;
+}
+
+main h2{
+    font-size: 1.5rem;
+    margin: 3rem 0;
+}
+
+main p{
+    font-size: 1rem;
+    max-width: 70%;
+    margin: 1rem auto;
+}
+
+.slider{
+    width: 70%;
+    margin: auto;
+    background-color: #00000048;
+}
+
+.comment{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+}
+
+.card{
+    max-width: 15%;
+    margin: 1rem 2rem;
+}
+
+
+
+.carousel-item img{
+    width: 70%;
+    height: 45rem;
+    margin: auto;
+}
+
+.carousel-caption{
+    color: white;
+    font-weight: bold;
+}
+
+.carousel-caption p, .carousel-caption h5{
+    background-color: rgba(0, 0, 0, 0.377);
+    width: fit-content;
+    padding: 0.5rem;
+    margin: 1rem auto ;
+}
+
+
+
+.authh{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 2rem;
+    width: 60%;
+    padding-bottom: 3rem;
+}
+
+.authh div{
+    width: 49%;
+    
+}
+
+.authh form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: right;
+
+    height: 20rem;
+    width: 80%;
+    margin: auto;
+    
+}
+
+.langueges{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.lessan{
+    width: min-content;
+    margin: auto;
+    text-decoration: none;
+}
+
+.lessan h2{
+    margin-bottom: 2px;
+    text-decoration: none;
+}
+
+.acces{
+    width: 10rem;
+    height: 5rem;
+}
+
+.titlle{
+   
+    width: fit-content;
+    text-align: left;
+}
+
+.lessin{
+    width: 50%;
+    margin: auto;
+}
+
+.lessinIMG{
+    /* width: 100%; */
+    max-height: 50rem;
+}
+
+.lessin p{
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0;
+    max-width: none;
+    text-align: justify;
+}
+
+.btn-myorange{
+    background-color: #FFA552;
+    width: 20rem;
+    text-align: center;
+    font-size: 2rem;
+    position: relative;
+    left: auto;
+    right: 0;
+}
+
+.btn-myorange:hover{
+    background-color: #ffbe81;
+}
+
+.lessin form p{
+    text-align: center;
+}
+
+.lessin form input{
+    font-size: 2rem;
+}
+
+
+
+/* .langueges .card{
+    margin: 0.5rem 1rem;
+} */
+
+
+
+footer{
+    text-align: center;
+    background-color: #596AFF;
+    color: white;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    width: fit-content;
+    margin: auto;
+}
+
+footer div a img{
+    width: 6rem;
+    height: 6rem;
+}
+
+
+@media screen and (max-width:1000px) {
+    .card{
+        max-width: 47%;
+        margin: 1rem 2rem;
+    }
+
+    .carousel-item img{
+        width: 70%;
+        height: 25rem;
+        margin: auto;
+    }
+
+    .authh{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .authh div{
+        margin: auto;
+        width: 80%;
+    }
+
+    .lessin{
+        width: 85%;
+    }
+
+    .lessinIMG{
+        max-height: 20rem;
+    }
+
+    .comment .card{
+        max-width: 100%;
+    }
+}
